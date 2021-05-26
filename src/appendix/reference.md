@@ -26,4 +26,9 @@
 * [你离IT大佬还差11个认证 | SDNLAB | 专注网络创新技术](https://www.sdnlab.com/23965.html)
 * [信息安全从业人员的薪酬水平是怎样的？ - 知乎](https://www.zhihu.com/question/24781420)
 * [「安全服务工程师（渗透） 郑州(J12726)招聘」_绿盟科技招聘-BOSS直聘](https://www.zhipin.com/job_detail/f9500c5f17af44ac1nR52N61EFtT.html?ka=search_list_jname_3_blank&lid=5sEkRqPTiq.search.3)
+* [招聘 | 【阿里系】【长亭科技】【安全工程师】【北京海淀】](https://mp.weixin.qq.com/s/aQtUuYcsAYg3iWUNzXHXng)
+* [你离IT大佬还差11个认证 | SDNLAB | 专注网络创新技术](https://www.sdnlab.com/23965.html)
+* [漫谈信息安全认证(CISP与CISSP) - 知乎](https://zhuanlan.zhihu.com/p/21750494)
+* [考CISP认证，需要哪些条件？ - 知乎](https://zhuanlan.zhihu.com/p/339291093)
+* [国内网络安全人员认证品牌大盘点：CISP、CCSRP和CISAW - 安全内参 | 决策者的网络安全知识库](https://www.secrss.com/articles/19237)
 * 
