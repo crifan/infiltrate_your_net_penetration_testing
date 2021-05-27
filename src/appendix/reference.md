@@ -31,4 +31,6 @@
 * [漫谈信息安全认证(CISP与CISSP) - 知乎](https://zhuanlan.zhihu.com/p/21750494)
 * [考CISP认证，需要哪些条件？ - 知乎](https://zhuanlan.zhihu.com/p/339291093)
 * [国内网络安全人员认证品牌大盘点：CISP、CCSRP和CISAW - 安全内参 | 决策者的网络安全知识库](https://www.secrss.com/articles/19237)
+* [Kali Linux Tools Listing | Penetration Testing Tools](https://tools.kali.org/tools-listing)
+* [Commix | Penetration Testing Tools](https://tools.kali.org/exploitation-tools/commix)
 * 

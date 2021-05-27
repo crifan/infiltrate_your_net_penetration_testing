@@ -22,3 +22,10 @@
       * `appscan`
     * 半自动检测工具
       * `CSRFTester`
+  * CSRF典型攻击流程
+    * ![csrf_attack_general_workflow](../../assets/img/csrf_attack_general_workflow.png)
+  * CSRF攻击代码举例
+    * `http://bank.com/transfer.do?acct=MARIA&amount=100000`
+    * `<a href="http://bank.com/transfer.do?acct=MARIA&amount=100000">View my Pictures!</a>`
+    * `<img src=’’url/page=disconnect’’>`
+

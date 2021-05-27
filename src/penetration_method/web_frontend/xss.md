@@ -1,40 +1,24 @@
 # XSS跨站脚本
 
-* 前端安全
-  * 背景
-    * 移动互联网
-      * 前端的攻击
-  * 攻击手段 =安全问题
-    * 传统
-      * XSS
-      * CSRF
-    * 新型
-      * 网络劫持
-      * 非法调用 Hybrid API
-  * 防护手段
-    * 浏览器
-      * CSP
-      * Same-Site Cookies
 * XSS
   * `XSS`=`Cross-Site Scripting`=`跨站脚本` -> `跨站脚本攻击` = `跨站攻击`
     * 为何缩写成XSS而不是CSS？
-      * 已有缩写CSS，表示网页领域的层叠样式表（Cascading Style Sheets
-      * 所以改用XCS，其中X表示Cross的交叉的含义
+      * 已有缩写`CSS`
+        * 表示网页领域的：`CSS`=`层叠样式表`=`Cascading Style Sheets`
+      * 所以改用`XSS`
+      * 其中`X`表示`Cross`=`交叉`的含义
   * 是什么：网站应用程序的安全漏洞攻击手段之一
     * 攻击者通过在目标网站上注入(恶意)脚本，使之在用户的浏览器上运行，从而引发潜在风险
       * 利用这些恶意脚本，攻击者可获取用户的敏感信息如 Cookie、SessionID 等，进而危害数据安全
-  * 类型：代码注入 攻击
+  * 攻击类型：`代码注入类`
   * 本质
     * 恶意代码未经过滤，与网站正常的代码混在一起
       * 浏览器无法分辨哪些脚本是可信的，导致恶意脚本被执行
-  * 相关
-    * CSRF
-      * =跨站请求伪造
   * 原理
     * 利用网页开发时留下的漏洞
     * 通过巧妙的方法注入恶意指令代码到网页
       * 恶意指令的语言
-        * 常是：JavaScript
+        * 常是：`JavaScript`
         * 其他
           * Java
           * VBScript
@@ -54,17 +38,20 @@
     * Cookie （可能来自其他子域注入）
   * 攻击类型
     * 按攻击来源分
-      * 存储型：经过后端，经过数据库
-      * 反射型：经过后端，不经过数据库
-      * DOM 型：通故前端，不经过后端
-        * DOM-based XSS漏洞
-          * 基于文档对象模型Document Objeet Model,DOM)的一种漏洞
-            * dom - xss是通过url传入参数去控制触发的
+      * 存储型=`Stored XSS`：经过后端，经过数据库
+        * 典型流程
+          * ![xss_stored_process](../../assets/img/xss_stored_process.png)
+      * 反射型=`Refleted XSS`：经过后端，不经过数据库
+        * 典型流程
+          * ![xss_reflected_process](../../assets/img/xss_reflected_process.png)
+      * DOM型=`DOM-based XSS`：经过前端，不经过后端
+        * 基于`DOM`=`Document Objeet Model`=`文档对象模型`的一种漏洞
+          * `DOM - xss`是通过url传入参数去控制触发的
     * 按是否持久分
-      * 非持久型xss攻击
-        * 顾名思义，非持久型xss攻击是一次性的，仅对当次的页面访问产生影响。非持久型xss攻击要求用户访问一个被攻击者篡改后的链接，用户访问该链接时，被植入的攻击脚本被用户游览器执行，从而达到攻击目的。
-      * 持久型xss攻击
-        * 持久型xss，会把攻击者的数据存储在服务器端，攻击行为将伴随着攻击数据一直存在。
+      * `非持久型xss攻击`
+        * 顾名思义，非持久型xss攻击是一次性的，仅对当次的页面访问产生影响。非持久型xss攻击要求用户访问一个被攻击者篡改后的链接，用户访问该链接时，被植入的攻击脚本被用户游览器执行，从而达到攻击目的
+      * `持久型xss攻击`
+        * 持久型xss，会把攻击者的数据存储在服务器端，攻击行为将伴随着攻击数据一直存在
   * 结果 效果
     * 获取到
       * 更高权限
@@ -84,3 +71,10 @@
     * 后端（开发期间）
       * HTML 转义 = 过滤特殊字符
       * 使用HTTP头指定类型
+  * XSS举例=代码注入举例
+    * `JS`：`<script>alert("XSS")</script>`
+    * `HTML`：`<b>if this text is bold, the site is potentially vulnerable</b>`
+    * `CSS`：`<style type="text/css"> body { background-color: red; background-image: none; } </style>`
+  * XSS相关工具
+    * `ZAP`=`Zed Attack Proxy`
+    * `XSS Scanner`

@@ -1,6 +1,6 @@
 {
-  "latestVersion": "v0.8",
-  "lastUpdate": "20210526",
+  "latestVersion": "v0.9",
+  "lastUpdate": "20210527",
   "gitRepoName": "infiltrate_your_net_penetration_testing",
   "bookName": "潜入你的网络：渗透测试",
   "bookDescription": "先对渗透测试进行宏观概述，属于安全方向的哪个子领域。再介绍基本的渗透测试和攻击的大体流程和涉及内容，再整理出网络攻击和防御的全流程和涉及的方方面面的内容。总结各种渗透测试的手段，包括Web前端的代码注入类的XSS跨站脚本攻击、CSRF跨站请求伪造，后端的SQL注入、RCE远程代码执行、SSRF服务端请求伪造、CORS跨域资源共享、越权访问，后端语言比如Java的反序列号、struts2等，以及文件类的文件包含、文件上传、目录浏览、任意文件读取和下载、XML文件的XXE等；以及其他渗透测试工具，比如漏洞扫描类的Metasploit、AppScan、AWVS、BurpSuite、Cobalt Strike、Nessus、ZAP和其他一些不常见的工具；以及端口扫描类的nmap、Layer等，注入类的sqlmap等以及模糊测试相关工具；然后根据渗透测试阶段，分渗透前、渗透中、渗透后；以及相关的玩网络安全，包括安全日志分析、网络分析工具等内容。"
