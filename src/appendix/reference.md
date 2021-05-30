@@ -33,4 +33,9 @@
 * [国内网络安全人员认证品牌大盘点：CISP、CCSRP和CISAW - 安全内参 | 决策者的网络安全知识库](https://www.secrss.com/articles/19237)
 * [Kali Linux Tools Listing | Penetration Testing Tools](https://tools.kali.org/tools-listing)
 * [Commix | Penetration Testing Tools](https://tools.kali.org/exploitation-tools/commix)
+* [XSS修炼之-内功心法CSP篇-WEB安全-看雪论坛-安全社区|安全招聘|bbs.pediy.com](https://bbs.pediy.com/thread-267389.htm)
+* [Layer子域名挖掘机5.0 SAINTSEC更新版 - 安全工具 - 互联网之家](http://521.li/post/544.html)
+* [Layer子域名挖掘机 - guojia000 - 博客园](https://www.cnblogs.com/guojia000/p/11393502.html)
+* [十大免费又好用的网络分析工具 - Dell Community](https://www.dell.com/community/%E7%BB%BC%E5%90%88%E8%AE%A8%E8%AE%BA%E5%8C%BA/%E5%8D%81%E5%A4%A7%E5%85%8D%E8%B4%B9%E5%8F%88%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7/td-p/6994331)
+* [Zenmap - Official cross-platform Nmap Security Scanner GUI](https://nmap.org/zenmap/)
 * 

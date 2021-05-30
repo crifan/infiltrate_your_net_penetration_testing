@@ -5,11 +5,14 @@ TODO：
 
 * [【记录】尝试用nmap去扫描局域网内的计算机的ip和其他详细信息 – 在路上](https://www.crifan.com/try_use_nmap_to_scan_local_active_pc_got_ip_and_other_info/)
 
+---
 
 * `nmap`
-  * =网络扫描仪
-  * `GUI`版本：`Zenmap`
-    * 包了一个可视化的皮
+  * 名称
+    * 可理解为：`nmap`=`network map`=网络地图 -> 通过扫描端口，就像得到网站的地图一样，而搞清楚（目标网站）的总体概况
+    * 别称：`网络扫描仪`
+  * 相关
+    * `GUI`版：`Zenmap`
   * 功能：扫描端口
     * 就像：敲门看看你家是否有人
       * 扫描看你开了哪些端口
