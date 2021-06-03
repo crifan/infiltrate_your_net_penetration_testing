@@ -38,4 +38,5 @@
 * [Layer子域名挖掘机 - guojia000 - 博客园](https://www.cnblogs.com/guojia000/p/11393502.html)
 * [十大免费又好用的网络分析工具 - Dell Community](https://www.dell.com/community/%E7%BB%BC%E5%90%88%E8%AE%A8%E8%AE%BA%E5%8C%BA/%E5%8D%81%E5%A4%A7%E5%85%8D%E8%B4%B9%E5%8F%88%E5%A5%BD%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C%E5%88%86%E6%9E%90%E5%B7%A5%E5%85%B7/td-p/6994331)
 * [Zenmap - Official cross-platform Nmap Security Scanner GUI](https://nmap.org/zenmap/)
+* [零基础如何学习 Web 安全？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/21606800)
 * 

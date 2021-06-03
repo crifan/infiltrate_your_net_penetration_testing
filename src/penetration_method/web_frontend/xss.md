@@ -78,3 +78,5 @@
   * XSS相关工具
     * `ZAP`=`Zed Attack Proxy`
     * `XSS Scanner`
+  * XSS攻击典型流程
+    * ![xss_attack_typical_procedure](../../assets/img/xss_attack_typical_procedure.jpg)
