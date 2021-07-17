@@ -36,18 +36,17 @@
         5. Exploitation 渗透利用
         6. Post Exploitation 后渗透
         7. Reporting 报告
-  * 输出
-    * 渗透测试报告
-      * 几类
-        * 只提供一份测试报告, 报告主体内容是 漏洞列表, 漏洞详情
-        * 提供简单的 checklist, 一般是以附录的形式写在测试报告中
-        * 提供来测试计划, 以及测试报告
+           * 输出
+             * 渗透测试报告
+               * 几类
+                 * 只提供一份测试报告, 报告主体内容是 漏洞列表, 漏洞详情
+                 * 提供简单的 checklist, 一般是以附录的形式写在测试报告中
+                 * 提供来测试计划, 以及测试报告
   * 常用工具
     * 扫描
       * `漏洞扫描`=`Web漏洞扫描`=`Vulnerability Scanning`
         * `AWVS`
-        * `appscan`
-        * `Metasploit`
+        * `AppScan`
         * `Burp` = `Burp Suite` = `Burpsuite`
         * `Metasploit` = `MSF` = `Metasploit Framework`
         * `CS` = `Cobalt Strike`

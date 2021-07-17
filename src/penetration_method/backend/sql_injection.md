@@ -1,8 +1,11 @@
 # SQL注入
 
 * `SQL注入`=`SQLi`=`SQL Injection`
-  * ->
+  * 攻
     * `SQL注入攻击`
+  * 形象的图
+    * ![sql_injection_blue](../../assets/img/sql_injection_blue.jpg)
+    * ![sql_injection_red](../../assets/img/sql_injection_red.jpg)
   * 手段：插入SQL代码
   * 目的：获取到敏感信息
     * 用于：后续的各种操作
